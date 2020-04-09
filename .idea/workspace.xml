@@ -7,6 +7,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ProjectId" id="1aEVeOT4Gd1FhDEoge17TQTUlDM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +53,7 @@
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.plot">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +172,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.plot" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.plot" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.feature" />
       </list>
@@ -186,6 +200,11 @@
       <workItem from="1586313229780" duration="41801000" />
       <workItem from="1586374007033" duration="99000" />
       <workItem from="1586374137614" duration="47000" />
+      <workItem from="1586374981936" duration="1015000" />
+      <workItem from="1586405773895" duration="3648000" />
+      <workItem from="1586409947240" duration="25000" />
+      <workItem from="1586412019282" duration="4140000" />
+      <workItem from="1586391807899" duration="2820000" />
     </task>
     <servers />
   </component>
@@ -214,9 +233,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586374048168" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586374141768">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586445526091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586374141768" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586445526091" />
   </component>
 </project>
