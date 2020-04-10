@@ -8,6 +8,11 @@ import pandas as pd
 import scipy.stats as sp
 import glob
 
+import tensorflow as tf
+
+physical_devices = tf.config.list_physical_devices('GPU')
+tf.config.experimental.set_memory_growth(physical_devices[0], True)
+# os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Path
 BASE_ABSOLUTE_PATH = os.path.dirname(os.path.realpath(__file__)) + "/../"

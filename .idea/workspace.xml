@@ -7,20 +7,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="ProjectId" id="1aEVeOT4Gd1FhDEoge17TQTUlDM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -28,10 +14,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JuliusRNN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,6 +31,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\script" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data\wavs" />
@@ -79,9 +69,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -101,9 +88,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -145,9 +129,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -207,6 +188,10 @@
       <workItem from="1586445525778" duration="861000" />
       <workItem from="1586446939105" duration="6118000" />
       <workItem from="1586492836002" duration="504000" />
+      <workItem from="1586502207141" duration="4390000" />
+      <workItem from="1586508884985" duration="1669000" />
+      <workItem from="1586521374466" duration="2305000" />
+      <workItem from="1586533224175" duration="2303000" />
     </task>
     <servers />
   </component>
@@ -231,17 +216,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586492584424" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586366664575">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586502536806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586366664575" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1586374048168">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586502536806" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1586537510501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1586537510501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1586537510500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510500" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1586537510501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586537510501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586537510501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586537510501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586537510501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
+    <state x="558" y="189" key="SettingsEditor" timestamp="1586502661243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586374048168" />
+    <state x="558" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586502661243" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586446953949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586446953949" />
+    <state x="514" y="249" width="891" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586506897481">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="514" y="249" width="891" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1586506897481" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JuliusMLP$test.coverage" NAME="test Coverage Results" MODIFIED="1586537313721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
   </component>
 </project>
