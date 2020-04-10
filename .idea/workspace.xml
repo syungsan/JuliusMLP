@@ -25,7 +25,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -205,11 +204,14 @@
       <workItem from="1586409947240" duration="25000" />
       <workItem from="1586412019282" duration="4140000" />
       <workItem from="1586391807899" duration="2820000" />
+      <workItem from="1586445525778" duration="861000" />
+      <workItem from="1586446939105" duration="6118000" />
+      <workItem from="1586492836002" duration="504000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -225,6 +227,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586359147329" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586492584424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586492584424" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586366664575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,9 +239,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586374048168" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586445526091">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586446953949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586445526091" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586446953949" />
   </component>
 </project>

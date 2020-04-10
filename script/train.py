@@ -15,7 +15,7 @@ import shutil
 import scipy.stats as sp
 
 
-FEATURE = "segmentation+frame+formant"
+FEATURE = "segmentation+frame+score+formant"
 
 FOLDS_NUMBER = 10
 BATCH_SIZE = 16 # [1, 8, 16, 32, 64, 128, 256, 512]
