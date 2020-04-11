@@ -20,11 +20,11 @@ physical_devices = tf.config.list_physical_devices('GPU')
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
 # os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-FEATURE = "segmentation+frame+score+dtw+formant+mfcc"
+FEATURE = "score"
 
 FOLDS_NUMBER = 10
 BATCH_SIZE = 16 # [1, 8, 16, 32, 64, 128, 256, 512]
-EPOCHS = 500
+EPOCHS = 300
 
 # Path
 BASE_ABSOLUTE_PATH = os.path.dirname(os.path.realpath(__file__)) + "/../"
