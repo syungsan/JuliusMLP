@@ -42,7 +42,7 @@
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,9 +69,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -91,9 +88,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -113,9 +107,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -135,9 +126,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -161,10 +149,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.feature" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.plot" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +192,12 @@
       <workItem from="1586544018539" duration="886000" />
       <workItem from="1586544918752" duration="1167000" />
       <workItem from="1586546162203" duration="41000" />
+      <workItem from="1586564953172" duration="608000" />
+      <workItem from="1586565581966" duration="3962000" />
+      <workItem from="1586571690357" duration="14061000" />
+      <workItem from="1586605010241" duration="3473000" />
+      <workItem from="1586609968982" duration="1847000" />
+      <workItem from="1586613400055" duration="9683000" />
     </task>
     <servers />
   </component>
@@ -265,11 +259,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586537510501" />
-    <state x="558" y="189" key="SettingsEditor" timestamp="1586502661243">
+    <state x="558" y="189" key="SettingsEditor" timestamp="1586564981603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1586374048168" />
-    <state x="558" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586502661243" />
+    <state x="558" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586564981603" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586446953949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
