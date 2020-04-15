@@ -41,7 +41,7 @@ SEGMENTATION_COMMAND = BASE_ABSOLUTE_PATH + "perl/bin/perl.exe " + BASE_ABSOLUTE
 MAX_WAV_COUNT = 3000
 
 # 1: MFCCのフレーム平均, 2: スコア, 3: フレーム数, 4: DTW, 5: フォルマント, 6: セグメンテーション結果
-feature_flag = [1, 1, 1, 0, 0, 0]
+feature_flag = [1, 1, 1, 0, 0, 1]
 
 
 def read_csv(file_path, delimiter):
