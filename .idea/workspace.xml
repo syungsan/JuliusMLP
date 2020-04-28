@@ -150,8 +150,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.plot" />
         <item itemvalue="Python.train" />
+        <item itemvalue="Python.plot" />
         <item itemvalue="Python.feature" />
       </list>
     </recent_temporary>
@@ -206,6 +206,9 @@
       <workItem from="1586767086762" duration="5662000" />
       <workItem from="1586933586504" duration="94000" />
       <workItem from="1586933690819" duration="4235000" />
+      <workItem from="1587028619088" duration="4092000" />
+      <workItem from="1588054046747" duration="285000" />
+      <workItem from="1588054346270" duration="1899000" />
     </task>
     <servers />
   </component>
