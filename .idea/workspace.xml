@@ -42,7 +42,7 @@
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.train">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,10 +149,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.train" />
-        <item itemvalue="Python.plot" />
         <item itemvalue="Python.feature" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.plot" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +209,8 @@
       <workItem from="1587028619088" duration="4092000" />
       <workItem from="1588054046747" duration="285000" />
       <workItem from="1588054346270" duration="1899000" />
+      <workItem from="1588062293888" duration="2093000" />
+      <workItem from="1588064413147" duration="2956000" />
     </task>
     <servers />
   </component>
