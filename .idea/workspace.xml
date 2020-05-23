@@ -31,15 +31,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\script" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data\wavs" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\scripts" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
@@ -69,6 +69,9 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -88,6 +91,9 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -126,6 +132,9 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -150,9 +159,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.feature" />
         <item itemvalue="Python.plot" />
         <item itemvalue="Python.train" />
-        <item itemvalue="Python.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +224,12 @@
       <workItem from="1589648403075" duration="704000" />
       <workItem from="1589868412109" duration="26000" />
       <workItem from="1590087119936" duration="20249000" />
+      <workItem from="1590251720742" duration="316000" />
+      <workItem from="1590252068579" duration="218000" />
+      <workItem from="1590252767561" duration="142000" />
+      <workItem from="1590255476775" duration="3706000" />
+      <workItem from="1590259615305" duration="2427000" />
+      <workItem from="1590262769535" duration="2065000" />
     </task>
     <servers />
   </component>
