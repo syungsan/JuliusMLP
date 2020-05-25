@@ -20,7 +20,7 @@ physical_devices = tf.config.list_physical_devices('GPU')
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
 # os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-FEATURE = "segmentation+frame+score+mfcc+formant+dtw"
+FEATURE = "segmentation+mfcc+frame+score"
 
 FOLDS_NUMBER = 10
 BATCH_SIZE = 16 # [1, 8, 16, 32, 64, 128, 256, 512]
@@ -29,7 +29,7 @@ EPOCHS = 300
 # Path
 BASE_ABSOLUTE_PATH = os.path.dirname(os.path.realpath(__file__)) + "/../"
 DATA_DIR_PATH = BASE_ABSOLUTE_PATH + "data"
-TRAINING_WAV_DIR_PATHS = [DATA_DIR_PATH + "/wavs/bad_wav", DATA_DIR_PATH + "/wavs/ok_wav"]
+# TRAINING_WAV_DIR_PATHS = [DATA_DIR_PATH + "/wavs/bad_wav", DATA_DIR_PATH + "/wavs/ok_wav"]
 TRAINING_FILE_PATH = DATA_DIR_PATH + "/train.csv"
 LOG_DIR_PATH = DATA_DIR_PATH + "/logs"
 DATABASE_PATH = DATA_DIR_PATH + "/evaluation.sqlite3"
