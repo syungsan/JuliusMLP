@@ -9,7 +9,7 @@ import csv
 import shutil
 
 
-FEATURES = ["segmentation+mfcc+frame+score"]
+FEATURES = ["segmentation+mfcc+frame+score", "segmentation+mfcc+frame", "segmentation+mfcc"]
 
 WINDOW_TITLE = "Graph View of JuliusMLP"
 
@@ -157,7 +157,7 @@ if __name__ == '__main__':
             index = max_factors[[i for i, x in enumerate(max_datas) if x == max(max_datas)][0]][1]
             feature = max_factors[[i for i, x in enumerate(max_datas) if x == max(max_datas)][0]][2]
 
-            text = "max " + " = " + str(rate * 100.0) + "%, " + feature + ", " + str(index) + "epoch"
+            text = "max " + " = " + str(round(rate * 100.0, 2)) + "%, " + feature + ", " + str(index) + "epoch"
 
         if k is 2 or k is 3:
 
@@ -181,6 +181,6 @@ if __name__ == '__main__':
             index = min_factors[[i for i, x in enumerate(min_datas) if x == min(min_datas)][0]][1]
             feature = min_factors[[i for i, x in enumerate(min_datas) if x == min(min_datas)][0]][2]
 
-            text = "min " + " = " + str(rate) + "%, " + feature + ", " + str(index) + "epoch"
+            text = "min " + " = " + str(round(rate, 2)) + "%, " + feature + ", " + str(index) + "epoch"
 
         learning_curve(datas[k], FEATURES, title, "Epoch", ylabels[k], text, rate)
