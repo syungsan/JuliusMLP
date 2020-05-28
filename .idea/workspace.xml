@@ -42,7 +42,7 @@
       <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.plot">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,9 +69,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -132,9 +129,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -181,9 +175,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.plot" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.feature" />
+        <item itemvalue="Python.plot" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.file_list" />
       </list>
@@ -265,6 +259,7 @@
       <workItem from="1590400191469" duration="5044000" />
       <workItem from="1590543150624" duration="1220000" />
       <workItem from="1590545421221" duration="394000" />
+      <workItem from="1590638440078" duration="489000" />
     </task>
     <servers />
   </component>

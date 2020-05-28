@@ -9,7 +9,7 @@ import csv
 import shutil
 
 
-FEATURES = ["segmentation+mfcc+frame+score", "segmentation+mfcc+frame", "segmentation+mfcc"]
+FEATURES = ["frame+score+segmentation+mfcc"]
 
 WINDOW_TITLE = "Graph View of JuliusMLP"
 
