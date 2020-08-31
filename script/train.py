@@ -9,6 +9,8 @@ import numpy as np
 
 import os
 from sklearn.model_selection import StratifiedKFold
+from imblearn.over_sampling import SMOTE
+# ↑ pip install imbalanced-learn==0.5.0
 import sqlite3
 import datetime
 import shutil
@@ -38,6 +40,23 @@ DATABASE_PATH = DATA_DIR_PATH + "/evaluation.sqlite3"
 train = pd.read_csv(TRAINING_FILE_PATH)
 X = (train.iloc[:, 1:].values).astype('float32')
 y = train.iloc[:, 0].values.astype('int32')
+
+if IS_SMOTE:
+
+    num_y = []
+    for i in range(2):
+        num_y.append(np.sum(y == i))
+
+    max_num_y = max(num_y)
+
+    _ratio = {0: max_num_y, 1: max_num_y}
+
+    # SMOTE
+    smote = SMOTE(ratio=_ratio, random_state=71)
+    X, y = smote.fit_sample(X, y)
+
+    for i in range(2):
+        print("Data number resampled => " + str(i) + ": " + str(np.sum(y == i)))
 
 # Z-Score関数による正規化
 X = sp.stats.zscore(X, axis=1)
