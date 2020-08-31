@@ -9,6 +9,8 @@ import numpy as np
 
 import os
 from sklearn.model_selection import StratifiedKFold
+from imblearn.over_sampling import SMOTE
+# ↑ pip install imbalanced-learn==0.5.0
 import sqlite3
 import datetime
 import shutil
@@ -16,15 +18,18 @@ import scipy.stats as sp
 
 import tensorflow as tf
 
+
 physical_devices = tf.config.list_physical_devices('GPU')
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
 # os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-FEATURE = "frame+score+segmentation+mfcc"
+FEATURE = "segmentation+mfcc+frame+score"
 
 FOLDS_NUMBER = 10
 BATCH_SIZE = 16 # [1, 8, 16, 32, 64, 128, 256, 512]
 EPOCHS = 300
+
+IS_SMOTE = False
 
 # Path
 BASE_ABSOLUTE_PATH = os.path.dirname(os.path.realpath(__file__)) + "/../"
@@ -38,6 +43,23 @@ DATABASE_PATH = DATA_DIR_PATH + "/evaluation.sqlite3"
 train = pd.read_csv(TRAINING_FILE_PATH)
 X = (train.iloc[:, 1:].values).astype('float32')
 y = train.iloc[:, 0].values.astype('int32')
+
+if IS_SMOTE:
+
+    num_y = []
+    for i in range(2):
+        num_y.append(np.sum(y == i))
+
+    max_num_y = max(num_y)
+
+    _ratio = {0: max_num_y, 1: max_num_y}
+
+    # SMOTE
+    smote = SMOTE(ratio=_ratio, random_state=71)
+    X, y = smote.fit_sample(X, y)
+
+    for i in range(2):
+        print("Data number resampled => " + str(i) + ": " + str(np.sum(y == i)))
 
 # Z-Score関数による正規化
 X = sp.stats.zscore(X, axis=1)
