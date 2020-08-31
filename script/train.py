@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# ↓ pip install keras==2.3.*
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation, Dropout
 
@@ -16,6 +17,7 @@ import datetime
 import shutil
 import scipy.stats as sp
 
+# pip install tensorflow==2.2.*
 import tensorflow as tf
 
 
