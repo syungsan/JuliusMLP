@@ -26,10 +26,10 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 FEATURE = "segmentation+mfcc+frame+score"
 
 FOLDS_NUMBER = 10
-BATCH_SIZE = 16 # [1, 8, 16, 32, 64, 128, 256, 512]
-EPOCHS = 300
+BATCH_SIZE = 32 # [1, 8, 16, 32, 64, 128, 256, 512]
+EPOCHS = 500
 
-IS_SMOTE = False
+IS_SMOTE = True
 
 # Path
 BASE_ABSOLUTE_PATH = os.path.dirname(os.path.realpath(__file__)) + "/../"
