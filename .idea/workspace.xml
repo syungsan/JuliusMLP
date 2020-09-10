@@ -44,14 +44,16 @@
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.feature">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.train">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,9 +169,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -194,10 +193,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.feature" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.plot" />
-        <item itemvalue="Python.train" />
         <item itemvalue="Python.file_list" />
       </list>
     </recent_temporary>
@@ -294,7 +293,8 @@
       <workItem from="1599728248357" duration="35000" />
       <workItem from="1599728328452" duration="14000" />
       <workItem from="1599728367674" duration="8000" />
-      <workItem from="1599742171418" duration="48000" />
+      <workItem from="1599742171418" duration="1971000" />
+      <workItem from="1599746472227" duration="243000" />
     </task>
     <servers />
   </component>
