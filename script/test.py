@@ -74,6 +74,7 @@ model.compile(loss='binary_crossentropy', optimizer='adadelta', metrics=["accura
 print("\n")
 
 y_pred = []
+y_probs = []
 
 for x in X:
 
@@ -83,9 +84,11 @@ for x in X:
 
     if predictions[0][0] >= threshold:
         y_pred.append(1)
+        y_probs.append(predictions[0][0])
         print(str(predictions[0][0]) + " => correct")
     else:
         y_pred.append(0)
+        y_probs.append(predictions[0][0])
         print(str(predictions[0][0]) + " => incorrect")
 
 y = y.tolist()
@@ -105,6 +108,16 @@ print("\n")
 print("Precision", precision)
 print("Recall", recall)
 print("F1Score", f1)
+
+import roc_pr_curve as roc_pr
+
+print("\n")
+print("Plot the ROC Curve")
+roc_pr.roc_curve(y, y_probs)
+
+print("\n")
+print("Plot the PR Curve")
+roc_pr.pr_curve(y, y_probs)
 
 print("")
 print("\nAll process completed...")

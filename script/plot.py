@@ -49,7 +49,7 @@ def learning_curve(datas, line_names, title, xlabel, ylabel, text, text_y_pos):
     plt.gcf().canvas.set_window_title(WINDOW_TITLE)
 
     # svgに保存
-    plt.savefig(GRAPH_DIR_PATH + "/" + title + ".svg", format="svg")
+    plt.savefig(GRAPH_DIR_PATH + "/" + title.replace(" ", "_") + ".svg", format="svg")
 
     # 描画
     plt.show()
@@ -132,7 +132,7 @@ if __name__ == '__main__':
         feature = ""
         text = ""
 
-        if k is 0 or k is 1:
+        if k == 0 or k == 1:
 
             l = 0
             max_datas = []
@@ -159,7 +159,7 @@ if __name__ == '__main__':
 
             text = "max " + " = " + str(round(rate * 100.0, 2)) + "%, " + feature + ", " + str(index) + "epoch"
 
-        if k is 2 or k is 3:
+        if k == 2 or k == 3:
 
             l = 0
             min_datas = []

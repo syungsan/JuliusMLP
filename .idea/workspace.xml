@@ -33,6 +33,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\script" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data\wavs" />
@@ -40,22 +43,8 @@
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\scripts" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
-    </key>
   </component>
   <component name="RunManager" selected="Python.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,6 +282,10 @@
       <workItem from="1598884672423" duration="7000" />
       <workItem from="1598884790332" duration="20000" />
       <workItem from="1599545745140" duration="97000" />
+      <workItem from="1599724731586" duration="2668000" />
+      <workItem from="1599728248357" duration="35000" />
+      <workItem from="1599728328452" duration="14000" />
+      <workItem from="1599728367674" duration="8000" />
     </task>
     <servers />
   </component>
@@ -305,9 +298,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="SettingsEditor" timestamp="1598861689656">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2160" y="93" key="SettingsEditor" timestamp="1599725214841">
+      <screen x="1920" y="0" width="1280" height="1024" />
     </state>
+    <state x="2160" y="93" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@1920.0.1280.1024" timestamp="1599725214841" />
     <state x="440" y="94" key="SettingsEditor/1920.-261.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598861689656" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
