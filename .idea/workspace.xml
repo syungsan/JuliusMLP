@@ -19,7 +19,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/script" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,18 +33,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP\script" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\script" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data\wavs" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP" />
       <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\scripts" />
-      <recent name="D:\TadanoProjects\PythonProjects\Julius-ML\JuliusMLP\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Developer\Tadano\PythonProjects\Julius-ML\JuliusMLP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -125,9 +125,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -147,9 +144,6 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -193,10 +187,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.feature" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.plot" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.feature" />
         <item itemvalue="Python.file_list" />
       </list>
     </recent_temporary>
@@ -295,6 +289,9 @@
       <workItem from="1599728367674" duration="8000" />
       <workItem from="1599742171418" duration="1971000" />
       <workItem from="1599746472227" duration="243000" />
+      <workItem from="1599746826780" duration="8000" />
+      <workItem from="1599746884556" duration="145000" />
+      <workItem from="1599747829764" duration="1111000" />
     </task>
     <servers />
   </component>
