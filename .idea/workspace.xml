@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="JupyterTrust" id="d77060e6-8e6b-4627-a357-3d094d437c05" />
+  <component name="JupyterTrust" id="d627666c-ace8-46a4-9b7a-1ca79d47fa73" />
   <component name="ProjectId" id="1aEVeOT4Gd1FhDEoge17TQTUlDM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -19,7 +19,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/script" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,15 +45,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +82,9 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -163,6 +164,9 @@
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -292,6 +296,11 @@
       <workItem from="1599746826780" duration="8000" />
       <workItem from="1599746884556" duration="145000" />
       <workItem from="1599747829764" duration="1111000" />
+      <workItem from="1599994560109" duration="1286000" />
+      <workItem from="1599995972147" duration="795000" />
+      <workItem from="1599996836545" duration="1795000" />
+      <workItem from="1599998663744" duration="523000" />
+      <workItem from="1600043491221" duration="1652000" />
     </task>
     <servers />
   </component>
@@ -304,14 +313,22 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1599994718337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1599994718337" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1599742219245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2160" y="93" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@1920.0.1280.1024" timestamp="1599725214841" />
     <state x="440" y="94" key="SettingsEditor/1920.-261.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599742219245" />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JuliusMLP$train.coverage" NAME="train Coverage Results" MODIFIED="1586934272254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
     <SUITE FILE_PATH="coverage/JuliusMLP$test.coverage" NAME="test Coverage Results" MODIFIED="1586537313721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/JuliusMLP$train.coverage" NAME="train Coverage Results" MODIFIED="1586934272254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
   </component>
 </project>

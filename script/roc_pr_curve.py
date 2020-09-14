@@ -51,10 +51,14 @@ def roc_curve(y_test, y_preds):
     plt.xlabel("False Positive Rate")
     plt.ylabel("True Positive Rate")
     plt.grid(True)
-    plt.show()
 
     plt.gcf().canvas.set_window_title(WINDOW_TITLE)
+
     plt.savefig(GRAPH_DIR_PATH + "/roc_curve_of_%s_by_MLP.svg" % word, format="svg")
+    plt.savefig(GRAPH_DIR_PATH + "/roc_curve_of_%s_by_MLP.png" % word, format="png")
+    plt.savefig(GRAPH_DIR_PATH + "/roc_curve_of_%s_by_MLP.pdf" % word, format="pdf")
+
+    plt.show()
     plt.close()
 
 
@@ -76,8 +80,12 @@ def pr_curve(y_test, y_preds):
     plt.xlabel("Recall")
     plt.ylabel("Precision")
     plt.grid(True)
-    plt.show()
 
     plt.gcf().canvas.set_window_title(WINDOW_TITLE)
+
     plt.savefig(GRAPH_DIR_PATH + "/pr_curve_of_%s_by_MLP.svg" % word, format="svg")
+    plt.savefig(GRAPH_DIR_PATH + "/pr_curve_of_%s_by_MLP.png" % word, format="png")
+    plt.savefig(GRAPH_DIR_PATH + "/pr_curve_of_%s_by_MLP.pdf" % word, format="pdf")
+
+    plt.show()
     plt.close()

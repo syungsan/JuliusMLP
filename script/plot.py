@@ -50,6 +50,10 @@ def learning_curve(datas, line_names, title, xlabel, ylabel, text, text_y_pos):
 
     # svgに保存
     plt.savefig(GRAPH_DIR_PATH + "/" + title.replace(" ", "_") + ".svg", format="svg")
+    # pngに保存
+    plt.savefig(GRAPH_DIR_PATH + "/" + title.replace(" ", "_") + ".png", format="png")
+    # pdfに保存
+    plt.savefig(GRAPH_DIR_PATH + "/" + title.replace(" ", "_") + ".pdf", format="pdf")
 
     # 描画
     plt.show()
