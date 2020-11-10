@@ -45,19 +45,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.roc_pr_curve">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="JuliusMLP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -310,6 +297,7 @@
       <workItem from="1599998663744" duration="523000" />
       <workItem from="1600043491221" duration="1652000" />
       <workItem from="1604049289450" duration="746000" />
+      <workItem from="1604650314846" duration="13000" />
     </task>
     <servers />
   </component>
